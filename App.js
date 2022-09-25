@@ -8,7 +8,6 @@ import * as Location from 'expo-location';
 export default function App() {
   const [location, setLocation] = useState("");
   const [address, setAddress] = useState();
-  const [errorMsg, setErrorMsg] = useState(null);
 
   useEffect(() => {
     (async () => {
